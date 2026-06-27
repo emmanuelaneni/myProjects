@@ -7,7 +7,7 @@ def kg_to_ibs(user,):
 
 def ibs_to_kg(user):
     kilogram = 0.453592
-    result =user * kilogram
+    result = user * kilogram
     return f"{result} kg"
 
 def ibs_to_stone(user):
