@@ -1,21 +1,21 @@
 import random
 
-ans = random.randint(1, 15)
+answer = random.randint(1, 15)
 count = 0
 trigger = True
 
 # Uncomment below to view the answer
-print(ans)
+print(answer)
 
 # Loop to make sure user enters a valid input
 while trigger:
     try:
         user_input = int(input("Guess the number: "))
         print("Number accepted!")
-        if user_input > ans:
+        if user_input > answer:
             print("Number entered is higher")
             count += 1
-        elif user_input < ans:
+        elif user_input < answer:
             print("Number enter is lower")
             count += 1
         else:
