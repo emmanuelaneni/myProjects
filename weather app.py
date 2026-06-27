@@ -43,3 +43,5 @@ def main():
             print("Enter Yes or No...")
         
 main()
+
+print("Thanks for using myWeather App")
